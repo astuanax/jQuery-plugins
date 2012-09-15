@@ -23,14 +23,6 @@
 	};
 
 	// private function for debugging
-	function debug(txt) {
-		if (window.console && window.console.log) {
-			if ($.fn.websticky.defaults.debug == 1) {
-				window.console.log(txt);
-			}
-		}
-	};
-
 	function _debug(msg) {
 		// Avoid `console` errors in browsers that lack a console.
 		if (!(window.console && console.log)) {
