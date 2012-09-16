@@ -11,6 +11,6 @@ Usage:
 	spanWidth: '32%',
 	maximumWidth: '100%',
 	className: 'wrapped',
-	debug: 0
+	debug: 'true'
   });
 ```
